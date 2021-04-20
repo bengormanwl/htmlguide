@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<base href="file:///C:\Users\Ben\Desktop\">-->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="./MrGormansHTMLGuide_files/bootstrap_noprint.min.css" rel="stylesheet">
+    <link href="./MrGormansHTMLGuide_files/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./MrGormansHTMLGuide_files/Theme.css" rel="stylesheet">
+    
+    <script src="./MrGormansHTMLGuide_files/jquery.min.js.download"></script>
+    <link href="./MrGormansHTMLGuide_files/github-gist.css" rel="stylesheet">
+    <script src="./MrGormansHTMLGuide_files/highlight.pack.js.download"></script>
+    <script src="./MrGormansHTMLGuide_files/preview.js.download"></script>
+  
+</head>
+<body>
+<div class="container">
+ <div class="row">
+    <div class="col-sm-3" style="border: 1px solid #eee;">
+<h1 id="contents">Contents</h1>
+<ul>
+<li><a href="#icon-star-a-basic-html-page"><i class="fa fa-star"></i>   A basic HTML Page</a></li>
+<li><a href="#icon-star-common-tags"><i class="fa fa-star"></i>  Common Tags</a>
+<ul>
+<li><a href="#headings">Headings</a></li>
+<li><a href="#paragraphs">Paragraphs</a></li>
+<li><a href="#centering">Centering</a></li>
+<li><a href="#horizontal-rule">Horizontal Rule</a></li>
+<li><a href="#new-line">New line</a></li>
+</ul>
+</li>
+<li><a href="#icon-star-formatting-tags"><i class="fa fa-star"></i>  Formatting Tags</a>
+<ul>
+<li><a href="#bold">Bold</a></li>
+<li><a href="#italic">Italic</a></li>
+<li><a href="#strikethrough">Strikethrough</a></li>
+<li><a href="#font">Font</a></li>
+</ul>
+</li>
+<li><a href="#icon-star-hyperlinks"><i class="fa fa-star"></i>  Hyperlinks</a>
+<ul>
+<li><a href="#a-basic-hyperlink">A basic hyperlink</a></li>
+<li><a href="#an-email-hyperlink">An email hyperlink</a></li>
+</ul>
+</li>
+<li><a href="#icon-star-images"><i class="fa fa-star"></i>  Images</a>
+<ul>
+<li><a href="#a-basic-image">A basic image</a></li>
+<li><a href="#resizing-images">Resizing images</a></li>
+<li><a href="#displaying-text-on-hover">Displaying text on hover</a></li>
+</ul>
+</li>
+<li><a href="#icon-star-lists"><i class="fa fa-star"></i>  Lists</a>
+<ul>
+<li><a href="#unordered-lists">Unordered lists</a></li>
+<li><a href="#ordered-lists">Ordered lists</a></li>
+</ul>
+</li>
+<li><a href="#icon-star-tables"><i class="fa fa-star"></i>  Tables</a></li>
+</ul>	
+    </div>
+    
+    <div class="col-sm-9">
+		<div id="MainContent">
+			<!-- Markdown Monster Content -->
+			<h1 id="icon-file-code-o-mr-gormans-html-guide"><i class="fa fa-file-code-o"></i>  Mr Gorman's HTML Guide</h1>
+<h2 id="icon-star-a-basic-html-page"><i class="fa fa-star"></i>   A basic HTML Page</h2>
+<p>Every page is supposed to start and stop with a <code>&lt;html&gt;</code> tag.</p>
+<p>The <code>&lt;head&gt;</code> section is where the page title is set and any special scripts are loaded.<br />
+The <code>&lt;body&gt;</code> section is where the content of the webpage goes.</p>
+<pre><code class="language-html">&lt;html&gt;
+
+ &lt;head&gt;
+  &lt;title&gt;website title&lt;/title&gt;
+ &lt;/head&gt;
+ 
+ &lt;body&gt;
+  content of website ...
+  blah blah blah...
+ &lt;/body&gt;
+ 
+&lt;/html&gt;
+</code></pre>
+<h2 id="icon-star-common-tags"><i class="fa fa-star"></i>  Common Tags</h2>
+<h3 id="headings">Headings</h3>
+<p>There are 6 levels of headings with 1 the largest and 6 the smallest.</p>
+<pre><code class="language-html">&lt;h1&gt;Biggest heading&lt;/h1&gt;
+&lt;h3&gt;Medium heading&lt;/h3&gt;
+&lt;h6&gt;Smallest heading&lt;/h6&gt;
+</code></pre>
+<h3 id="paragraphs">Paragraphs</h3>
+<p>This organises paragraphs of text</p>
+<pre><code class="language-html">&lt;p&gt;This is in a paragraph&lt;/p&gt;
+</code></pre>
+
+<h3 id="centering">Centering text and images</h3>
+<p>This puts text in the centre of the screen. It also works on images.<br>Be careful with the spelling, its the American spelling <b>center</b> not the British spelling <b>centre</b>.</p>
+<pre><code class="language-html">&lt;center&gt;This text will be in the middle&lt;/center&gt;
+</code></pre>
+
+<h3 id="horizontal-rule">Horizontal Rule</h3>
+<p>The hr tag makes a ruler mark across the page. Its used to split a page into sections.</p>
+<pre><code class="language-html">&lt;hr&gt;
+</code></pre>
+<p>There's an example of hr below this line.</p>
+<hr>
+<h3 id="new-line">New line</h3>
+<p>The BR tag makes a line break. It forces the page to start a new line.</p>
+<pre><code class="language-html">&lt;br&gt; 
+</code></pre>
+<h2 id="icon-star-formatting-tags"><i class="fa fa-star"></i>  Formatting Tags</h2>
+<h3 id="bold">Bold</h3>
+<p>The b tag makes text <strong>bold</strong></p>
+<pre><code class="language-html">&lt;b&gt;This text will be bold&lt;/b&gt;
+</code></pre>
+<h3 id="italic">Italic</h3>
+<p>The i tag makes text <em>italic</em></p>
+<pre><code class="language-html">&lt;i&gt;This text will be italic&lt;/i&gt;
+</code></pre>
+<h3 id="strikethrough">Strikethrough</h3>
+<p>This creates strikethrough text (text with a line through it)  <del>like this.</del></p>
+<pre><code class="language-html">&lt;strike&gt;This will be crossed out&lt;/strike&gt;
+</code></pre>
+<h3 id="font">Font</h3>
+<p>This lets you change the font and the colour.</p>
+<blockquote>
+<h3 id="icon-info-circle-common-mistakes"><i class="fa fa-info-circle"></i>  Common Mistakes</h3>
+<p>Look carefully at how colour is spelt. Its spelled the American way <em><strong>color</strong></em>.<br />
+Also look at how the tag is closed. Its just <code>&lt;/font&gt;</code></p>
+</blockquote>
+<p>To change the font:</p>
+<pre><code class="language-html">&lt;font face =&quot;Arial&quot;&gt;
+Everything inside the tag will be in the Arial font
+&lt;/font&gt;
+</code></pre>
+<p>To change the colour:</p>
+<pre><code class="language-html">&lt;font color=&quot;red&quot;&gt;
+This will be red
+&lt;/font&gt;
+</code></pre>
+<p>To do both at the same time:</p>
+<pre><code class="language-html">&lt;font face =&quot;Arial&quot; color=&quot;red&quot;&gt;
+Everything inside the tag will be in the Arial font and red
+&lt;/font&gt;
+</code></pre>
+<p>To choose an exact shade of a colour you can use a <a href="https://html-color-codes.info/">HTML colour code.</a><br />
+These 6 digit codes start with the # symbol eg #7B3AB1.</p>
+<pre><code class="language-html">&lt;font color=&quot;#7B3AB1&quot;&gt;
+This will be the exact shade of purple that I have chosen.
+&lt;/font&gt;
+</code></pre>
+<p>Here's what it would look like:
+<font color="#7B3AB1">
+This will be the exact shade of purple that I have chosen.
+</font></p>
+<h2 id="icon-star-hyperlinks"><i class="fa fa-star"></i>  Hyperlinks</h2>
+<p>The <code>&lt;a&gt;</code> tag makes a hyperlink. But to make it work you have to add other attributes (things inside the <code>&lt;a&gt;</code> tag).</p>
+<h3 id="a-basic-hyperlink">A basic hyperlink</h3>
+<p>You need to tell it two things. Where to link to and what to click on to activate the link.</p>
+<pre><code class="language-html">&lt;a href=&quot;http://www.westleighhigh.co.uk&quot;&gt; This text will be a link &lt;/a&gt;
+</code></pre>
+<p>Here's what it looks like. Try clicking on it: <a href="http://www.westleighhigh.co.uk"> This text will be a link </a></p>
+<blockquote>
+<h3 id="icon-info-circle-common-mistakes-1"><i class="fa fa-info-circle"></i>  Common Mistakes</h3>
+<p>Look carefully at the example. There's a space between <code>a</code> and <code>href</code>.<br />
+The page we're linking to is inside speech marks.</p>
+</blockquote>
+<h3 id="an-email-hyperlink">An email hyperlink</h3>
+<p>You can make a hyperlink that emails someone when you click on it.<br />
+Its like a normal hyperlink expect that in the speech marks you put <code>mailto:</code> and then an email address.</p>
+<pre><code class="language-html">&lt;a href=&quot;mailto:bengorman@westleigh.wigan.sch.uk&quot;&gt; This is what you click on &lt;/a&gt;
+</code></pre>
+<h2 id="icon-star-images"><i class="fa fa-star"></i>  Images</h2>
+<p>The <code>&lt;img&gt;</code> tag lets you add images.</p>
+<h3 id="a-basic-image">A basic image</h3>
+<p>You have to add a <code>src=&quot; &quot;</code> into the tag to tell it the name of the file.</p>
+<pre><code class="language-html">&lt;img src=&quot;WestleighLogo.png&quot;&gt;
+</code></pre>
+<p>This would display:<br />
+<img src="https://www.westleighhigh.co.uk/images/logo/wlhs-final-school-logo-horizontal-RGB.png"></p>
+<h3 id="resizing-images">Resizing images</h3>
+<p>You can set a width and height. But we normally just set the width and the height will scale down too.</p>
+<pre><code class="language-html">&lt;img src=&quot;WestleighLogo.png&quot; width = &quot;200&quot;&gt;
+</code></pre>
+<p>This would display:<br />
+<img src="https://www.westleighhigh.co.uk/images/logo/wlhs-final-school-logo-horizontal-RGB.png" width="200"></p>
+<h3 id="displaying-text-on-hover">Displaying text on hover</h3>
+<p>If you add <code>title=&quot;some text&quot;</code> to the image tag - it will display the text when you hover your mouse over the image.</p>
+<pre><code class="language-html">&lt;img src=&quot;WestleighLogo.png&quot; width = &quot;200&quot; title=&quot;The Westleigh Logo&quot;&gt;
+</code></pre>
+<p>Hover your mouse over this image:<br />
+<img src="https://www.westleighhigh.co.uk/images/logo/wlhs-final-school-logo-horizontal-RGB.png" width="200" title="The Westleigh Logo"></p>
+<h2 id="icon-star-lists"><i class="fa fa-star"></i>  Lists</h2>
+<p>There are two types of list. <strong>Ordered</strong> and <strong>unordered</strong> lists.</p>
+<h3 id="unordered-lists">Unordered lists</h3>
+<p>These are lists with bullet points.</p>
+<pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Another item&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+<p>This would display:</p>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Another item</li>
+</ul>
+<blockquote>
+<h3 id="icon-info-circle-common-mistakes-2"><i class="fa fa-info-circle"></i>  Common Mistakes</h3>
+<p>The tag starts and ends with <code>&lt;ul&gt;</code> and <code>&lt;/ul&gt;</code><br />
+But every bullet point starts and ends with <code>&lt;li&gt;</code> <code>&lt;/li&gt;</code></p>
+</blockquote>
+<h3 id="ordered-lists">Ordered lists</h3>
+<p>These are lists with numbered bullet points.</p>
+<pre><code class="language-html">&lt;ol&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2&lt;/li&gt;
+    &lt;li&gt;Another item&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+<p>This would display:</p>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Another item</li>
+</ol>
+<blockquote>
+<h3 id="icon-info-circle-common-mistakes-3"><i class="fa fa-info-circle"></i>  Common Mistakes</h3>
+<p>The tag starts and ends with <code>&lt;ol&gt;</code> and <code>&lt;/ol&gt;</code><br />
+But every bullet point starts and ends with <code>&lt;li&gt;</code> <code>&lt;/li&gt;</code></p>
+</blockquote>
+<h2 id="icon-star-tables"><i class="fa fa-star"></i>  Tables</h2>
+<p>Tables can be tricky to understand.<br />
+<code>&lt;table&gt;</code> and <code>&lt;/table&gt;</code> start and stop the table.<br />
+<code>&lt;tr&gt;</code> and <code>&lt;/tr&gt;</code> means a new row.<br />
+<code>&lt;th&gt;</code> and <code>&lt;/th&gt;</code> means the headings. We only use these in the first row.<br />
+<code>&lt;td&gt;</code> and <code>&lt;/td&gt;</code> means the actual information in that cell of the table.</p>
+<pre><code class="language-html">&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Form&lt;/th&gt;
+        &lt;th&gt;Shoe size&lt;/th&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+        &lt;td&gt;Ben Bloggs&lt;/td&gt;
+        &lt;td&gt;8 O&lt;/td&gt;
+        &lt;td&gt;8&lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+        &lt;td&gt;Suzie Smith&lt;/td&gt;
+        &lt;td&gt;9 P&lt;/td&gt;
+        &lt;td&gt;7&lt;/td&gt;
+    &lt;/tr&gt;
+    
+    &lt;tr&gt;
+        &lt;td&gt;Jeff Jeffson&lt;/td&gt;
+        &lt;td&gt;11 C&lt;/td&gt;
+        &lt;td&gt;10&lt;/td&gt;
+    &lt;/tr&gt;    
+&lt;/table&gt;
+</code></pre>
+<p>This would display:</p>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Form</th>
+        <th>Shoe size</th>
+    </tr>
+    
+    <tr>
+        <td>Ben Bloggs</td>
+        <td>8 O</td>
+        <td>8</td>
+    </tr>
+    
+    <tr>
+        <td>Suzie Smith</td>
+        <td>9 P</td>
+        <td>7</td>
+    </tr>
+    
+    <tr>
+        <td>Jeff Jeffson</td>
+        <td>11 C</td>
+        <td>10</td>
+    </tr>    
+</table>
+			<!-- End Markdown Monster Content -->
+		</div>
+    </div>
+  </div>
+
+  <!-- end .container --></div>
+</body></html>
